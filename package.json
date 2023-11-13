@@ -1,0 +1,49 @@
+{
+  "name": "resume.builder",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "nbt",
+  "keywords": [
+    "resume",
+    "resume-maker"
+  ],
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "prepare": "husky install"
+  },
+  "dependencies": {
+    "@tiptap/react": "^2.0.0-beta.199",
+    "@tiptap/starter-kit": "^2.0.0-beta.199",
+    "next": "^12.3.1",
+    "next-i18next": "^12.0.1",
+    "next-seo": "^5.5.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-icons": "^4.4.0",
+    "react-to-print": "^2.14.7",
+    "styled-components": "^5.3.6"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.19.3",
+    "@babel/core": "^7.19.3",
+    "@babel/preset-typescript": "^7.18.6",
+    "@babel/runtime": "^7.19.0",
+    "@commitlint/cli": "^17.1.2",
+    "@commitlint/config-conventional": "^17.0.3",
+    "@types/react": "^18.0.21",
+    "@types/node": "^18.7.23",
+    "@types/styled-components": "^5.1.26",
+    "babel-loader": "^8.2.5",
+    "babel-plugin-styled-components": "^2.0.7",
+    "eslint": "^8.24.0",
+    "eslint-config-next": "^12.3.1",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "husky": "^8.0.1",
+    "prettier": "^2.7.1",
+    "typescript": "^4.8.4"
+  }
+}
