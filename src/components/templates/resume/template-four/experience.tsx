@@ -17,7 +17,9 @@ export const Experience = ({ data }: ExperienceProps) => (
 
           <Duration>{experience.duration}</Duration>
 
-          <Description>{experience.description}</Description>
+          <Description
+            dangerouslySetInnerHTML={{ __html: experience.description }}
+          />
         </Wrapper>
       ))}
   </Container>

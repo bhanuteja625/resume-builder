@@ -1,11 +1,11 @@
 import { FieldValues } from 'hooks'
 
 export const DEFAULT_DATA: FieldValues = {
-  name: 'Bhanu Teja Nandina',
+  name: 'Charmina Vadlapatla',
   profession: 'Software Developer',
   summary:
     'Resourceful Developer with 11 years of experience in designing and developing user interfaces, testing and training employees. Skilled at utilizing a wide variety of tools and programs to provide effective applications.',
-  email: 'bhanuteja625@email.com',
+  email: 'Charminav262000@gmail.com',
   phone: '+1 234 567 890',
   skills: [
     {
@@ -49,8 +49,8 @@ export const DEFAULT_DATA: FieldValues = {
   ],
   education: [
     {
-      institution: 'University of New Haven',
-      program: "Masters's Degree: Datascience",
+      institution: 'Lamar University',
+      program: "Masters's Degree: Computer Science",
       duration: '2022 - 2024'
     }
   ],
